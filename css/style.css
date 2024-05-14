@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+
+.trevland{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/Rectangle\ 31.jpg);
+    background-size: cover;
+    background-position: cover;
+}
+
+header button{
+    height: 51px;
+    width: 163px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h2{
+    color: white;
+    font-size: 34px;
+    font-family: cursive;
+}
+
+
+header ul{
+    display: flex;
+    font-size: 24px;
+}
+
+header li{
+    margin: 30px 40px 30px 40px;
+    color: white;
+}
+
+.travland-head{
+    height: 40px;
+    width: 100%;
+    background-color: blue;  
+}
+
+.railtrip{
+    width:710px;
+    height: 400px;
+    /* background-color: aliceblue; */
+    margin-top: 220px;
+    margin-left: 300px;
+    color: white;
+}
+
+.railtrip h1{
+    font-size: 68px;
+    margin: 20px 0px 30px 0px;
+}
+
+.rail-p{
+    width:460px;
+    font-size: 20px;
+}
+
+.railtrip button{
+    height: 51px;
+    width: 163px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 40px 0px 0px 0px;
+}
+
+
+
+
+/* section2 popular location */
+
+
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family:"gelasio";
+    src: url(../Gelasio/Gelasio-VariableFont_wght.ttf);
+}
+
+
+.Location{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    
+
+}
+
+.Location .info{
+    padding: 90px;
+    font-family: gelasio;
+}
+
+.box1{
+    width: 360px; 
+    height: 420px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 1px;
+}
+
+.Location h1{
+    padding: 30px;
+    font-size: 40px;
+}
+
+.inf{
+    background-color: whitesmoke;
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.Location h2{
+   margin: 10px;
+}
+
+
+
+/* section-offers */
+
+.special{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.special-offers{
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    background-color: #fff;
+}
+
+.special-offers h1{
+    margin: 0px 0px 25px 0px;;
+}
+
+.cards{
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+    display: flex;
+    gap: 15px;
+    /* flex-direction: row; */
+}
+
+.card{
+    height: 90%;
+    width: 20%;
+    border-radius: 5px;
+}
+
+
+.img{
+    width: 100%;
+    height: 50%;
+}
+
+.cards .info{
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    padding: 30px 200px 0px 20px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between
+}
+
+.card p {
+    margin: 10px 0px 10px 0px;
+}
+
+
+
+/* section4 */
+
+.from-blog{
+    width: 100%;
+    height: 100vh;
+}
+
+.news{
+    width: 50%;
+    height: 13%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+}
+
+.banff-the{
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    gap: 40px;
+}
+
+.national{
+    height: 100%;
+    width: 47%;
+    font-size: 26px;
+}
+
+.national h3{
+    margin: 20px 0px 20px 0px;
+}
+
+.heroshima{
+    height: 100%;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+}
+
+.pease{
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+
+.heroshima  .img{
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.heroshima .info{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.heroshima p{
+    margin: 10px 0px 10px 0px ;
+}
+
+
+/* footer */
+
+
+footer{
+    height: 240px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+footer h5{
+    padding: 10px;
+}
+
+footer h4{
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.now button{
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.now input{
+    height: 60px;
+    width: 180px;
+}
